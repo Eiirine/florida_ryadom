@@ -11,7 +11,7 @@
         <header>
             <div class="header-left">
                 <div class="logo">
-                    <div class="logo">Логотип</div>
+                    Логотип
                 </div>
                 <div class="subtitle">Флорида — пропавшие люди</div>
             </div>
@@ -20,10 +20,9 @@
             </div>
         </header>
 
-        <!-- Hero секция -->
         <section class="hero">
             <div class="hero-map-bg">
-                <div class="map">[Карта Флориды]</div>
+                <img src="images/florida.jpg" alt="Карта Флориды" class="map-image" />
             </div>
             <div class="hero-overlay"></div>
             <div class="hero-content">
@@ -35,7 +34,6 @@
             </div>
         </section>
 
-        <!-- Статистика -->
         <section class="stats">
             <div class="stat-item">
                 <div class="stat-number">6 человек</div>
@@ -62,12 +60,12 @@
             <div class="cards-grid">
                 <div class="person-card" data-person="nikki">
                     <div class="card-image">
-                        <div class="image">[Фото Никки]</div>
+                        <img src="images/nikki.jpg" alt="Фото Никки Хольм" />
                     </div>
                     <div class="card-info">
                         <div class="person-name">Никки Хольм</div>
                         <div class="person-details">
-                            <span>Дата исчезновения: 05.03.26</span>
+                            <span>Дата исчезновения: 03.05.26</span>
                             <span>Возраст тогда: 31 год</span>
                         </div>
                         <button class="card-btn" onclick="openModal('nikki')">Подробнее о человеке</button>
@@ -76,19 +74,19 @@
 
                 <div class="person-card" data-person="jennifer">
                     <div class="card-image">
-                        <div class="image">[Фото Дженнифер]</div>
+                        <img src="images/jennifer.jpg" alt="Фото Дженнифер" />
                     </div>
                     <div class="card-info">
                         <div class="person-name">Дженнифер</div>
                         <div class="person-details">
-                            <span>Дата исчезновения: 02.03.22</span>
-                            <span>Возраст тогда: 32 года</span>
+                            <span>Дата исчезновения: 03.02.22</span>
+                            <span>Возраст тогда: 28 года</span>
                         </div>
                         <button class="card-btn" onclick="openModal('jennifer')">Подробнее о человеке</button>
                     </div>
                 </div>
 
-                <div class="person-card" data-person="erin">
+                <div class="person-card" data-person="eiirine">
                     <div class="card-image">
                         <img src="images/eiirine.jpg" alt="Фото Эйрин Файрхарт" />
                     </div>
@@ -96,7 +94,7 @@
                         <div class="person-name">Эйрин Файрхарт</div>
                         <div class="person-details">
                             <span>Дата исчезновения: 10.14.22</span>
-                            <span>Возраст тогда: 26 лет</span>
+                            <span>Возраст тогда: 22 года</span>
                         </div>
                         <button class="card-btn" onclick="openModal('eiirine')">Подробнее о человеке</button>
                     </div>
@@ -104,12 +102,12 @@
 
                 <div class="person-card" data-person="poppy">
                     <div class="card-image">
-                        <div class="image">[Фото Поппи]</div>
+                        <img src="images/poppy.jpg" alt="Фото Поппи" />
                     </div>
                     <div class="card-info">
                         <div class="person-name">Поппи</div>
                         <div class="person-details">
-                            <span>Дата исчезновения: 08.01.24</span>
+                            <span>Дата исчезновения: 01.08.24</span>
                             <span>Возраст тогда: 29 лет</span>
                         </div>
                         <button class="card-btn" onclick="openModal('poppy')">Подробнее о человеке</button>
@@ -118,10 +116,10 @@
 
                 <div class="person-card" data-person="mia">
                     <div class="card-image">
-                        <div class="image">[Фото Мия]</div>
+                        <img src="images/mia.jpg" alt="Фото Мии Канэко" />
                     </div>
                     <div class="card-info">
-                        <div class="person-name">Мия Кэнэко</div>
+                        <div class="person-name">Мия Канэко</div>
                         <div class="person-details">
                             <span>Дата исчезновения: 02.09.24</span>
                             <span>Возраст тогда: 20 лет</span>
@@ -132,7 +130,7 @@
 
                 <div class="person-card" data-person="alex">
                     <div class="card-image">
-                        <div class="image">[Фото Алекс]</div>
+                        <img src="images/alex.jpg" alt="Фото Алекс" />
                     </div>
                     <div class="card-info">
                         <div class="person-name">Алекс</div>
@@ -150,7 +148,6 @@
             </p>
         </section>
 
-        <!-- Призыв к действию -->
         <section class="action-section">
             <div class="action-header">
                 <h2>Ваша информация может помочь</h2>
@@ -158,7 +155,7 @@
 
             <div class="action-content">
                 <div class="action-column">
-                    <h4>Знаете что-то?</h4>
+                    <h3>Знаете что-то?</h3>
                     <p>Просим вас не оставлять<br />это при себе</p>
                 </div>
                 <div class="action-column">
@@ -188,10 +185,9 @@
                         поиска.
                     </p>
                 </div>
-            </div>
+            </div> 
         </section>
-
-        <!-- Финальная фраза -->
+        
         <section class="closing">
             <h2>Быть рядом — значит не забывать</h2>
         </section>
@@ -215,36 +211,41 @@
         <div class="modal-overlay" id="modalOverlay">
             <div class="modal">
                 <button class="modal-close" onclick="closeModal()">✕</button>
-                <div class="modal-content">
-                    <div class="modal-image">
+
+                <!-- Верхняя красная полоса -->
+                <div class="modal-header-bar">
+                    <div class="modal-lighter">
+                        <div class="lighter-placeholder-small">[Зажигалка]</div>
+                    </div>
+                    <div class="modal-header-title">MISSING PERSON</div>
+                </div>
+
+                <!-- Имя и дата пропажи -->
+                <div class="modal-name-section">
+                    <h2 class="modal-person-name" id="modalName">Имя Фамилия</h2>
+                    <div class="modal-date-missing">пропал(а) <span id="modalDate">хх.хх.хх</span></div>
+                </div>
+
+                <!-- Фото и информация -->
+                <div class="modal-body">
+                    <div class="modal-photo">
                         <img src="" alt="Фото человека" id="modalImage" style="display: none" />
                         <div class="modal-image-placeholder" id="modalImagePlaceholder">[Фото человека]</div>
                     </div>
-                    <div class="modal-info">
-                        <h2 class="modal-name" id="modalName">Имя</h2>
-                        <div class="modal-meta">
-                            <span id="modalAge">Возраст</span>
-                            <span class="modal-separator">•</span>
-                            <span id="modalCity">Город</span>
+                    <div class="modal-details">
+                        <div class="modal-text-block" id="modalTextBlock">
+                            <!-- Текст в файле script.js -->
                         </div>
-                        <div class="modal-section">
-                            <h4>Обстоятельства исчезновения</h4>
-                            <p id="modalCircumstances">Описание</p>
-                        </div>
-                        <div class="modal-section">
-                            <h4>Приметы</h4>
-                            <p id="modalFeatures">Описание</p>
-                        </div>
-                        <div class="modal-section">
-                            <h4>Одежда</h4>
-                            <p id="modalClothes">Описание</p>
-                        </div>
-                        <button
-                            class="modal-info-btn"
-                            onclick="document.querySelector('.header-btn').click(); closeModal();">
-                            У меня есть информация
-                        </button>
                     </div>
+                </div>
+
+                <!-- Кнопка -->
+                <div class="modal-footer">
+                    <button
+                        class="modal-info-btn"
+                        onclick="document.querySelector('.header-btn').click(); closeModal();">
+                        У меня есть информация
+                    </button>
                 </div>
             </div>
         </div>
