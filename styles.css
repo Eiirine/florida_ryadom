@@ -755,32 +755,58 @@ footer {
     }
 
     /* === МОДАЛЬНОЕ ОКНО НА МОБИЛЬНЫХ (только структура, без font-size) === */
-    .modal-header-bar {
-        flex-direction: column;
-        text-align: left;
-        gap: 1rem;
-        padding: 1rem;
-    }
+.modal-header-bar {
+    gap: 1rem;
+    padding: 1rem;
+}
+    
+.modal-lighter {
+    display: none;
+}
 
-    .modal-name-section {
-        padding: 1rem;
-    }
+.modal-header-title {
+    font-size: 4rem; /* Было 6rem */
+    line-height: 2rem;
+}
 
-    .modal-body {
-        grid-template-columns: 1fr;
-        padding: 1.5rem;
-    }
+.modal-person-name {
+    font-size: 4rem; /* Было 4rem */
+    line-height: 4rem;
+}
 
-    .modal-photo {
-        margin: 0 auto;
-    }
+.modal-date-missing {
+    font-size: 3rem; /* Было 4rem */
+    line-height: 2rem;
+}
 
-    .modal-info-line {
-        flex-direction: column;
-        gap: 0.3rem;
-    }
+.modal-text-block {
+    font-size: 2.5rem; /* Было 3rem */
+    line-height: 2rem;
+}
 
-    .modal-footer {
-        padding: 1rem;
-    }
+.modal-info-btn {
+    font-size: 2rem; /* Было 3rem */
+    padding: 0.8rem;
+}
+
+.modal-name-section {
+    padding: 1rem;
+}
+
+.modal-body {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+}
+
+.modal-photo {
+    margin: 0 auto;
+}
+
+.modal-info-line {
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.modal-footer {
+    padding: 1rem;
 }
