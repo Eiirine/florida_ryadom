@@ -118,8 +118,3 @@ document.querySelector(".hero-btn").addEventListener("click", function (e) {
         behavior: "smooth"
     });
 });
-
-// Обработчик для кнопки "У меня есть информация" (открывает ссылку в новой вкладке)
-document.querySelector(".header-btn").addEventListener("click", function () {
-    window.open("здесь будет ссылка на гугл анкету", "_blank");
-});
